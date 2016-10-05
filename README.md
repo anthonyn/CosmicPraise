@@ -1,14 +1,6 @@
-Mechanica Musica lighting
-=============
-
-Simulator and lighting code for Mechanica Musica, a human music wheel
-
-http://douglasruuska.com/human-music-wheel/
-
-Based on the 2014 lighting code for Cosmic Praise
-
-![ScreenShot](https://raw.github.com/Dewb/CosmicPraise/wheel/docs/simulator_wheel.png)
-
+NECTR wheel
+----------
+Lighting for a NECTR project
 
 Quickstart
 ----------
