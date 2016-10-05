@@ -62,7 +62,7 @@ var lightTypes = [
 	{ 
 		group: "wheel-right", 
 		proto: "opc", address: "10.0.0.32:7890", 
-		ports: { 19: wheel_right_inner, 17: wheel_right_outer },
+		ports: { 1: wheel_right_inner, 2: wheel_right_outer },
 	},
 	// { 
 	// 	group: "wheel-left", 
