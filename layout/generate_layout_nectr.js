@@ -64,56 +64,56 @@ var lightTypes = [
 		proto: "opc", address: "10.0.0.32:7890", 
 		ports: { 19: wheel_right_inner, 17: wheel_right_outer },
 	},
-	{ 
-		group: "wheel-left", 
-		proto: "opc", address: "10.0.0.32:7890", 
-		ports: { 16: wheel_left_inner, 18: wheel_left_outer },
-	},
-	{ 
-		group: "back-door-right", 
-		proto: "opc", address: "10.0.0.32:7890", 
-		ports: { 14: back_door_right },
-	},
-	{ 
-		group: "back-door-left", 
-		proto: "opc", address: "10.0.0.32:7890", 
-		ports: { 9: back_door_left },
-	},
-	{
-		group: "ceiling-right-low",
-		proto: "opc", address: "10.0.0.32:7890",
-		ports: { 15: ceiling_right_low },
-	},
-	{
-		group: "ceiling-right-high",
-		proto: "opc", address: "10.0.0.32:7890",
-		ports: { 12: ceiling_right_high },
-	},
-	{
-		group: "ceiling-center",
-		proto: "opc", address: "10.0.0.32:7890",
-		ports: { 10: ceiling_center },
-	},
-	{
-		group: "ceiling-left-high",
-		proto: "opc", address: "10.0.0.32:7890",
-		ports: { 11: ceiling_left_high },
-	},
-	{
-		group: "ceiling-left-low",
-		proto: "opc", address: "10.0.0.32:7890",
-		ports: { 8: ceiling_left_low },
-	},
-	{ 
-		group: "front-door",
-		proto: "opc", address: "10.0.0.32:7890",
-		ports: { 3: front_door_right, 0: front_door_left },
-	},
-	{ 
-		group: "front-door-outer",
-		proto: "opc", address: "10.0.0.32:7890",
-		ports: { 2: front_door_outer_right, 1: front_door_outer_left },
-	},
+	// { 
+	// 	group: "wheel-left", 
+	// 	proto: "opc", address: "10.0.0.32:7890", 
+	// 	ports: { 16: wheel_left_inner, 18: wheel_left_outer },
+	// },
+	// { 
+	// 	group: "back-door-right", 
+	// 	proto: "opc", address: "10.0.0.32:7890", 
+	// 	ports: { 14: back_door_right },
+	// },
+	// { 
+	// 	group: "back-door-left", 
+	// 	proto: "opc", address: "10.0.0.32:7890", 
+	// 	ports: { 9: back_door_left },
+	// },
+	// {
+	// 	group: "ceiling-right-low",
+	// 	proto: "opc", address: "10.0.0.32:7890",
+	// 	ports: { 15: ceiling_right_low },
+	// },
+	// {
+	// 	group: "ceiling-right-high",
+	// 	proto: "opc", address: "10.0.0.32:7890",
+	// 	ports: { 12: ceiling_right_high },
+	// },
+	// {
+	// 	group: "ceiling-center",
+	// 	proto: "opc", address: "10.0.0.32:7890",
+	// 	ports: { 10: ceiling_center },
+	// },
+	// {
+	// 	group: "ceiling-left-high",
+	// 	proto: "opc", address: "10.0.0.32:7890",
+	// 	ports: { 11: ceiling_left_high },
+	// },
+	// {
+	// 	group: "ceiling-left-low",
+	// 	proto: "opc", address: "10.0.0.32:7890",
+	// 	ports: { 8: ceiling_left_low },
+	// },
+	// { 
+	// 	group: "front-door",
+	// 	proto: "opc", address: "10.0.0.32:7890",
+	// 	ports: { 3: front_door_right, 0: front_door_left },
+	// },
+	// { 
+	// 	group: "front-door-outer",
+	// 	proto: "opc", address: "10.0.0.32:7890",
+	// 	ports: { 2: front_door_outer_right, 1: front_door_outer_left },
+	// },
 ];
 
 var pixelsPerStrip = 120;
