@@ -40,23 +40,23 @@ function translate(pts, vec) {
 // wheel strips start at top and meet at bottom
 var wheel_right_inner = curves["wheel_right_inner0"];
 var wheel_right_outer = curves["wheel_right_outer0"];
-var wheel_left_inner = scale(curves["wheel_right_inner0"], [-1, 1, 1]);
-var wheel_left_outer = scale(curves["wheel_right_outer0"], [-1, 1, 1]);
+// var wheel_left_inner = scale(curves["wheel_right_inner0"], [-1, 1, 1]);
+// var wheel_left_outer = scale(curves["wheel_right_outer0"], [-1, 1, 1]);
 
-// back door and ceiling strips start on the wheel-side ceiling
-var back_door_right = reverse(curves["back_door_right0"]);
-var back_door_left = reverse(scale(curves["back_door_right0"], [-1, 1, 1]));
-var ceiling_left_high = reverse(scale(curves["ceiling_right_high0"], [-1, 1, 1]));
-var ceiling_left_low = reverse(scale(curves["ceiling_right_low0"], [-1, 1, 1]));
-var ceiling_center = curves["ceiling_center0"];
-var ceiling_right_low = reverse(curves["ceiling_right_low0"]);
-var ceiling_right_high = reverse(curves["ceiling_right_high0"]);
+// // back door and ceiling strips start on the wheel-side ceiling
+// var back_door_right = reverse(curves["back_door_right0"]);
+// var back_door_left = reverse(scale(curves["back_door_right0"], [-1, 1, 1]));
+// var ceiling_left_high = reverse(scale(curves["ceiling_right_high0"], [-1, 1, 1]));
+// var ceiling_left_low = reverse(scale(curves["ceiling_right_low0"], [-1, 1, 1]));
+// var ceiling_center = curves["ceiling_center0"];
+// var ceiling_right_low = reverse(curves["ceiling_right_low0"]);
+// var ceiling_right_high = reverse(curves["ceiling_right_high0"]);
 
-// front door strips start at the top center
-var front_door_right = curves70["front_door_70px_right0"];
-var front_door_left = scale(curves70["front_door_70px_right0"], [-1, 1, 1]);
-var front_door_outer_right = translate(front_door_right, [0, -1, 0])
-var front_door_outer_left = translate(front_door_left, [0, -1, 0])
+// // front door strips start at the top center
+// var front_door_right = curves70["front_door_70px_right0"];
+// var front_door_left = scale(curves70["front_door_70px_right0"], [-1, 1, 1]);
+// var front_door_outer_right = translate(front_door_right, [0, -1, 0])
+// var front_door_outer_left = translate(front_door_left, [0, -1, 0])
 
 var lightTypes = [
 	{ 
