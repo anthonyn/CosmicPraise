@@ -83,10 +83,10 @@ print
 #-------------------------------------------------------------------------------
 # color function
 
-def pixel_color(t, coord, ii, n_pixels, random_values):
+def pixel_color(t, coord, ii, n_pixels, random_values, c):
 
 
-    r  = 255 % t
+    r  = 255 % c
     g = 0
     b = 0
 
@@ -161,9 +161,11 @@ print
 n_pixels = len(coordinates)
 random_values = [random.random() for ii in range(n_pixels)]
 start_time = time.time()
+c = 0
 while True:
+    c += 1
     t = time.time() - start_time
-    pixels = [pixel_color(t*0.6, coord, ii, n_pixels, random_values) for ii, coord in enumerate(coordinates)]
+    pixels = [pixel_color(t*0.6, coord, ii, n_pixels, random_values, c) for ii, coord in enumerate(coordinates)]
     client.put_pixels(pixels, channel=0)
     time.sleep(1 / options.fps)
 
