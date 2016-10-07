@@ -86,7 +86,7 @@ print
 def pixel_color(t, coord, ii, n_pixels, random_values, c):
 
 
-    r  = 255 % c
+    r  = c % 255
     g = 0
     b = 0
 
