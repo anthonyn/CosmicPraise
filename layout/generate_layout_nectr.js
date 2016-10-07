@@ -4,7 +4,7 @@
 
 var fs = require('fs');
 var path = require('path');
-var curves = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'wheel_strip_curves_113px.json'), 'utf8'));
+var curves = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'wheel_strip_curves_113px_nectr.json'), 'utf8'));
 var curves70 = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'wheel_strip_curves_70px.json'), 'utf8'));
 
 function scale(pts, axes) {
@@ -62,7 +62,7 @@ var lightTypes = [
 	{ 
 		group: "wheel-right", 
 		proto: "opc", address: "10.0.0.32:7890", 
-		ports: { 1: wheel_right_inner, 2: wheel_right_outer },
+		ports: { 0: wheel_right_inner, 1: wheel_right_outer },
 	},
 	// { 
 	// 	group: "wheel-left", 
